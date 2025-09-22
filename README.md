@@ -61,69 +61,7 @@
 
    * Vào **Project Facets** → Tick:
 
-     * ✅ **Dynamic Web Module 3.1**
-     * ✅ **Java 17**
-
-     ![Facets](https://github.com/user-attachments/assets/038171c0-7d6e-44a7-856e-e37a2d5cef8b)
-
-   * Sửa **SQL connection string** nếu cần.
-
-     ![SQL Conn](https://github.com/user-attachments/assets/2cbd950a-bd7e-4e60-8635-081576dc38ac)
-
----
-
-## 4. Chạy Project trên Tomcat
-
-1. Vào tab **Servers** → Thêm server mới
-
-   ![Add Server](https://github.com/user-attachments/assets/1856956e-96f6-4a84-ae64-fe7734fa2a4c)
-
-2. Chọn đúng Tomcat server đã cài
-
-   ![Pick Server](https://github.com/user-attachments/assets/703bcba9-8733-4e06-9fbb-d631c7d48819)
-
-3. Add project:
-
-   * Chuột phải server → **Add and Remove...**
-   * Nhấn **Add All** → **Finish**
-
-   ![Add Project](https://github.com/user-attachments/assets/e073bd0a-c7b4-406b-8ba9-1934bebd0fcd)
-   ![Finish](https://github.com/user-attachments/assets/77009577-6b6e-4700-8b8b-76c978ab08bc)
-
----
-
-## 5. Fix lỗi Catalina Runtime (nếu gặp)
-
-* Nếu chạy ngay sẽ báo lỗi như sau:
-
-  ![Error](https://github.com/user-attachments/assets/22490e7f-1d52-4bc8-a476-c6ac19e91760)
-
-### Cách xử lý:
-
-1. Mở **Run > Run Configurations...**
-
-   ![Run Config](https://github.com/user-attachments/assets/54aa179f-b8f0-489c-83f0-590e7791ae81)
-
-2. Chọn server Tomcat đang cấu hình
-
-   ![Select Server](https://github.com/user-attachments/assets/43bdd1bd-073b-4abd-aae9-e77059376cab)
-
-3. Vào tab **Classpath** → Nhấn **Add External JARs...**
-   → Trỏ đến thư mục cài Tomcat > **bin** → Thêm 2 file:
-
-   * `bootstrap.jar`
-   * `tomcat-juli.jar`
-     👉 **Không thêm file khác**
-
-   ![Add Jars](https://github.com/user-attachments/assets/69444b04-ab73-4e2f-aaad-370ab006ec21)
-   ![Final Run](https://github.com/user-attachments/assets/dc243b32-d73f-4d06-8c5c-d79bd24bc448)
-
----
-
-## 6. Kết quả
-
-* Server chạy thành công → Truy cập:
-  👉 [http://localhost:8080](http://localhost:8080)
+     * ✅ app](http://localhost:8080/app)
 
   ![Run Ok](https://github.com/user-attachments/assets/8233d0d2-5f18-43aa-8b32-d8788f961d9a)
   ![Final](https://github.com/user-attachments/assets/9cca340c-9501-4f52-ab92-b93bf1f59afc)
