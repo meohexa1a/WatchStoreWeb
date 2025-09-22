@@ -3,7 +3,7 @@
 ## 1. Cài đặt & thêm Tomcat Server
 
 1. Mở **Preferences**
-   `Alt + W + P` → **Window > Preferences...**
+   `Alt + W + P` (**Window > Preferences...**)
    → Vào mục **Server > Runtime Environments**
 
    ![Runtime Env](https://github.com/user-attachments/assets/c9450435-8d1d-4229-b639-c1145651b91e)
